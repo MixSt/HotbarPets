@@ -38,7 +38,7 @@ public class FoodListener implements Listener {
             if (pig != null && SlimefunUtils.isItemSimilar(item, pig.getItem(), true)) {
 
                 if (!p.getInventory().containsAtLeast(pig.getFavouriteFood(), 1)) {
-                    p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Your &5Pig Pet &9would have helped you if you did not neglect it by not feeding it :("));
+                    p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Ваш &5Питомец Свинья &9помог бы вам, если бы вы не забывали его кормить :("));
                     return;
                 }
 

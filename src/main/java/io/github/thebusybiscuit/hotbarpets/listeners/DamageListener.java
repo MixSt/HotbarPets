@@ -61,7 +61,7 @@ public class DamageListener implements Listener {
                 case LAVA:
                     if (magmacube != null && SlimefunUtils.isItemSimilar(item, magmacube.getItem(), true)) {
                         if (!p.getInventory().containsAtLeast(magmacube.getFavouriteFood(), 1)) {
-                            p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Your &4Magma Cube Pet &9would have helped you if you did not neglect it by not feeding it :("));
+                            p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Ваш &4Питомец Магма Куб &9помог бы вам, если бы вы не забывали его кормить :("));
                             return;
                         }
 
